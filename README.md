@@ -1,0 +1,1 @@
+# stytch-ruby-magic-links
