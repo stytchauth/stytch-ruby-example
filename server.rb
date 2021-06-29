@@ -12,7 +12,7 @@ get '/' do
 end
 
 post '/login-or-create-user' do
-  resp = client.login_or_create_user(
+  resp = client.magic_links.email.login_or_create(
     email: params[:email],
     login_magic_link_url: magic_link_url,
     signup_magic_link_url: magic_link_url,
@@ -26,7 +26,7 @@ post '/login-or-create-user' do
 end
 
 get '/authenticate' do
-  resp = client.authenticate_magic(
+  resp = client.magic_links.authenticate(
     token: params[:token]
   ).symbolize_keys
 
