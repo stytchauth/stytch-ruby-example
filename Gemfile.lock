@@ -35,7 +35,7 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
-    stytch (0.2.1)
+    stytch (2.0.0)
       faraday (>= 0.17.0, < 2.0)
       faraday_middleware (>= 0.14.0, < 2.0)
     tilt (2.0.10)
@@ -50,7 +50,7 @@ DEPENDENCIES
   activesupport (~> 6.1.1)
   dotenv (~> 2.7.6)
   sinatra (~> 2.1.0)
-  stytch (~> 0.2.1)
+  stytch (~> 2.0.0)
 
 BUNDLED WITH
    2.1.4
