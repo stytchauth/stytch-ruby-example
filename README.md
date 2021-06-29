@@ -1,6 +1,6 @@
 # stytch-ruby-magic-links
 
-##### 1. Register Magic Link URL
+##### 1. Add Magic Link URL
 Visit https://stytch.com/dashboard/magic-link-urls to add
 `http://localhost:4567/authenticate` as a valid sign-up and login URL.
 
