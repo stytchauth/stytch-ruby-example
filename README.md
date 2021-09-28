@@ -12,7 +12,7 @@ You can also set `STYTCH_ENV` to `live` to use your live project.
 
 ##### 3. Install dependencies
 
-`gem install bundler` (Skip this if you've already installed bundle)
+`gem install bundler` (Skip this if you've already installed bundler)
 
 `bundle install`
 
