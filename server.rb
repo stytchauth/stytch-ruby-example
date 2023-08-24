@@ -1,11 +1,10 @@
 require 'stytch'
 require 'dotenv'
 require 'sinatra'
-require 'active_support/core_ext/hash/keys'
 
 Dotenv.load
 
-set :content_type,'application/json'
+set :content_type => 'application/json', :port => 3000
 
 get '/' do
   erb :login_or_signup
