@@ -1,14 +1,14 @@
 # Stytch Ruby example application
 
-This example application demonstrates how one may use Stytch within a Ruby application.
+This example application demonstrates one way to use Stytch within a Ruby application.
 
 This project uses Stytch's backend [Ruby SDK](https://github.com/stytchauth/stytch-ruby), which wraps [Stytch's API endpoints](https://stytch.com/docs/api).
 
-This application features our Email Magic Links product. You can use this application's source code as a learning resource, or use it as a jumping off point for your own project. We are excited to see what you build with Stytch!
+This application features our Email Magic Links product. You can use this application's source code as a learning resource, or use it as a jumping off point for your own project. We're excited to see what you build with Stytch!
 
 ## Setup
 
-Follow the steps below to get this application running using your own Stytch credentials.
+Follow the below steps to get this application running using your own Stytch credentials.
 
 ### In the Stytch Dashboard
 
