@@ -24,6 +24,9 @@
 				<div class="card">
 					<div class="cardContent">
 						<h1>Welcome back!</h1>
+						<% if session[:email] %>
+						<p>Logged in as <%= session[:email] %></p>
+						<% end %>
 						<p>Your socks just can't wait to be shipped!</p>
 						<form action="http://localhost:3000/logout" method="GET">
 							<div class="actions">
