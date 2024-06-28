@@ -62,8 +62,7 @@ The application will be available at [`http://localhost:3000`](http://localhost:
 This example app showcases a small portion of what you can accomplish with Stytch. Here are a few ideas to explore:
 
 1. Add additional login methods like [OAuth](https://stytch.com/docs/api/oauth-google-start) or [Passwords](https://stytch.com/docs/api/password-create).
-2. Add more advanced session logic to your application using [Stytch Sessions](https://stytch.com/docs/api/session-auth).
-3. Secure your app further by building MFA authentication using methods like [OTP](https://stytch.com/docs/api/send-otp-by-sms).
+2. Secure your app further by building MFA authentication using methods like [OTP](https://stytch.com/docs/api/send-otp-by-sms).
 
 ## Get help and join the community
 
